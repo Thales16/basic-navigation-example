@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  padding: 10px 50px;
+  background-color: #1d1d1d;
+  color: white;
+  overflow: hidden;
+}
+
+nav {
+  padding: 10px 50px;
+  background-color: #1d1d1d;
+}
+
+.logo {
+  background-color: white;
+  color: black;
+  padding: 5px 10px;
+  display: block;
+  float: left;
+}
+
+.logo img {
+  height: 40px;
+  display: block;
+}
+
+span {
+  display: block;
+  float: left;
+  border: solid 1px #1d1d1d;
+  width: calc(100% - 45px - 196px - 2px - 16px);
+  height: 2px;
+}
+
+nav ul {
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.navlink:link,
+.navlink:visited {
+  color: #2258cc;
+}
+
+.main-content {
+  overflow: hidden;
+}
+
+.card {
+  width: 250px;
+  background-color: #1d1d1d;
+  padding: 20px;
+  float: right;
+  color: #2258cc;
+  min-height: 100vh;
+}
+
+.card .navlink:link,
+.card .navlink:visited {
+  color: #2258cc;
+  padding: 5px 0;
+  margin-bottom: 10px;
+  display: block;
+  text-align: center;
+}
+footer{
+    background-color: #1d1d1d;
+    color: #2258cc;
+    padding: 20px 60px;
+    text-align: center;
+    clear: both;
+}
+footer ul li {
+  display: inline-block;
+  margin: 20px 15px;
+}
+h2{
+    color: white;
+}
+p{
+    color: white;
+}
